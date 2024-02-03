@@ -29,9 +29,6 @@ public class Main {
                 case 2:
                     ProblemarioTres prob2 = new ProblemarioTres();
                     break;
-                case 3:
-                    ProblemarioCuatro prob3 = new ProblemarioCuatro();
-                    break;
                 default:
                     System.out.println("Opción ingresada no válida");
                     break;

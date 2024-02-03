@@ -7,6 +7,5 @@ import java.io.IOException;
 
 public class ProblemaSeis {
 
-    public ProblemaSeis (boolean test) {}
 
 }

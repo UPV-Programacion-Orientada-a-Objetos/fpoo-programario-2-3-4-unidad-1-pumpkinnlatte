@@ -24,7 +24,7 @@ public class ProblemarioTres {
                     terminar = true;
                     Main m = new Main();
                     break;
-                /*case 1:
+                case 1:
                     ProblemaUno p1 = new ProblemaUno();
                     break;
                 case 2:
@@ -57,29 +57,14 @@ public class ProblemarioTres {
                 case 11:
                     ProblemaOnce p11 = new ProblemaOnce();
                     break;
-                case 12:
-                    ProblemaDoce p12 = new ProblemaDoce();
-                    break;
                 case 13:
                     ProblemaTrece p13 = new ProblemaTrece();
-                    break;
-                case 14:
-                    ProblemaCatorce p14 = new ProblemaCatorce();
-                    break;
-                case 15:
-                    ProblemaQuince p15 = new ProblemaQuince();
-                    break;
-                case 16:
-                    ProblemaDieciseis p16 = new ProblemaDieciseis();
                     break;
                 case 19:
                     ProblemaDiecinueve p19 = new ProblemaDiecinueve();
                     break;
                 case 20:
                     ProblemaVeinte p20 = new ProblemaVeinte();
-                    break;
-                case 21:
-                    ProblemaVeinituno p21 = new ProblemaVeinituno();
                     break;
                 case 22:
                     ProblemaVeintidos p22 = new ProblemaVeintidos();
@@ -101,7 +86,7 @@ public class ProblemarioTres {
                 case 30:
                     break;
                 case 31:
-                    break;*/
+                    break;
                 default:
                     System.out.println("Opcion ingresada no válida, intente de nuevo");
                     break;
