@@ -2,13 +2,20 @@ package edu.upvictoria.fpoo.Mates;
 
 public class Comparacion {
 
-    public double esMayor(double a, double b){
+    public boolean esMayorQue(double a, double b){
+        if(a > b){
+            return true;
+        }
+        return false;
+    }
+
+    public double Mayor(double a, double b){
         if(a > b){
             return a;
         }
         return b;
     }
-    public double esMayor(double a, double b, double c){
+    public double Mayor(double a, double b, double c){
         if(a > b && a > c){
             return a;
         }

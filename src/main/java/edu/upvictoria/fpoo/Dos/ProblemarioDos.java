@@ -45,7 +45,65 @@ public class ProblemarioDos {
                 case 7:
                     ProblemaSiete p7 = new ProblemaSiete();
                     break;
+                case 8:
+                    ProblemaOcho p8 = new ProblemaOcho();
+                    break;
+                case 9:
+                    ProblemaNueve p9 = new ProblemaNueve();
+                    break;
+                case 10:
+                    ProblemaDiez p10 = new ProblemaDiez();
+                    break;
+                case 11:
+                    ProblemaOnce p11 = new ProblemaOnce();
+                    break;
+                case 12:
+                    ProblemaDoce p12 = new ProblemaDoce();
+                    break;
+                case 13:
+                    ProblemaTrece p13 = new ProblemaTrece();
+                    break;
+                case 14:
+                    ProblemaCatorce p14 = new ProblemaCatorce();
+                    break;
+                case 15:
+                    ProblemaQuince p15 = new ProblemaQuince();
+                    break;
+                case 16:
+                    ProblemaDieciseis p16 = new ProblemaDieciseis();
+                    break;
+                case 19:
+                    ProblemaDiecinueve p19 = new ProblemaDiecinueve();
+                    break;
+                case 20:
+                    ProblemaVeinte p20 = new ProblemaVeinte();
+                    break;
+                case 21:
+                    ProblemaVeinituno p21 = new ProblemaVeinituno();
+                    break;
+                case 22:
+                    ProblemaVeintidos p22 = new ProblemaVeintidos();
+                    break;
+                case 23:
+                    break;
+                case 24:
+                    break;
+                case 25:
+                    break;
+                case 26:
+                    break;
+                case 27:
+                    break;
+                case 28:
+                    break;
+                case 29:
+                    break;
+                case 30:
+                    break;
+                case 31:
+                    break;
                 default:
+                    System.out.println("Opcion ingresada no válida, intente de nuevo");
                     break;
             }
         }

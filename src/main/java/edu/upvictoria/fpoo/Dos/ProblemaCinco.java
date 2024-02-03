@@ -9,6 +9,8 @@ public class ProblemaCinco {
 
     public ProblemaCinco() throws IOException {
 
+        System.out.println("Problema 5");
+        System.out.println("Mayor entre 3 Números");
         Input leer = new Input();
         Comparacion m = new Comparacion();
         double a,b,c;
@@ -17,7 +19,7 @@ public class ProblemaCinco {
         b = leer.DoubleInput("Ingrese el segundo numero: ");
         c = leer.DoubleInput("Ingrese el tercer numero: ");
 
-        System.out.println("El numero mayor es: " + m.esMayor(a,b,c));
+        System.out.println("El numero mayor es: " + m.Mayor(a,b,c));
 
     }
 

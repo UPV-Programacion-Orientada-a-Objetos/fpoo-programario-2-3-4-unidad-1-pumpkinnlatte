@@ -9,6 +9,8 @@ public class ProblemaCuatro {
 
     public ProblemaCuatro() throws IOException {
 
+        System.out.println("Problema 4");
+        System.out.println("Trajes");
         Input leer = new Input();
         Descuentos desc = new Descuentos();
         double d = 0.8;

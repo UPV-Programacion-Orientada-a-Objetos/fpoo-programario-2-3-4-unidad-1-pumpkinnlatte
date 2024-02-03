@@ -39,7 +39,7 @@ public class Input {
         double value = 0;
         try {
             BufferedReader inp = new BufferedReader(new InputStreamReader(System.in));
-            value = Integer.parseInt(inp.readLine());
+            value = Double.parseDouble(inp.readLine());
         } catch (NumberFormatException e) {
             System.out.println("Entrada no válida");
         }

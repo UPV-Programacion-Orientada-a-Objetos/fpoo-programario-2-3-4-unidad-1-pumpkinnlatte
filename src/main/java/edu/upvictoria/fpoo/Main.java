@@ -1,6 +1,8 @@
 package edu.upvictoria.fpoo;
 
 import edu.upvictoria.fpoo.Dos.*;
+import edu.upvictoria.fpoo.Tres.ProblemarioTres;
+
 import java.io.IOException;
 
 public class Main {
@@ -13,7 +15,7 @@ public class Main {
 
             System.out.println("\n---------------- PROGRAMARIOS ----------------\n" );
             System.out.println("Elige el numero del programario que desea consultar");
-            System.out.println("0.Salir\n1.Programario 2\n3.Programario 3\n4.Programario 4\n");
+            System.out.println("0.Salir\n1.Programario 2\n3.Programario 3\n3.Programario 4\n");
 
             int opc = leer.IntInput("");
 
@@ -25,12 +27,13 @@ public class Main {
                     ProblemarioDos prob = new ProblemarioDos();
                     break;
                 case 2:
+                    ProblemarioTres prob2 = new ProblemarioTres();
                     break;
                 case 3:
-                    break;
-                case 4:
+                    ProblemarioCuatro prob3 = new ProblemarioCuatro();
                     break;
                 default:
+                    System.out.println("Opción ingresada no válida");
                     break;
             }
 

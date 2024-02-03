@@ -24,6 +24,8 @@ public class ProblemaSeis {
 
     public ProblemaSeis() throws IOException {
 
+        System.out.println("Problema 6");
+        System.out.println("Banquete");
         Input leer = new Input();
         Descuentos desc = new Descuentos();
 

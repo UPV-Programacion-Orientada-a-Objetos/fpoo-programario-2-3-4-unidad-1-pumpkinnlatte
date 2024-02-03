@@ -1,13 +1,15 @@
-package edu.upvictoria.fpoo.Dos;
+package edu.upvictoria.fpoo.Tres;
+
 import edu.upvictoria.fpoo.Input;
 import edu.upvictoria.fpoo.Mates.Comparacion;
 
 import java.io.IOException;
 
-public class ProblemaDos {
+public class ProblemaSiete {
 
-    public ProblemaDos() throws IOException {
-        System.out.println("Problema 2");
+    public ProblemaSiete() throws IOException {
+
+        System.out.println("Problema 7");
         System.out.println("Positivo o Negativo");
 
         Input leer = new Input();
@@ -23,7 +25,6 @@ public class ProblemaDos {
                 System.out.println("El numero ingresado es negativo");
             }
         }
-
     }
 
 }
